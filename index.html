@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dashboard</h1>
+        <form>
+            <label for="city-input">Search for City</label>
+            <input type="text" id="city-input">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+    <main>
+        <section id="current-weather">
+            <h2>Current Weather Conditions</h2>
+            <div id="city-name"></div>
+            <div id="date"></div>
+            <div id="temperature"></div>
+            <div id="humidity"></div>
+            <div id="wind-speed"></div>
+        </section>
+        <section id="future-weather">
+            <h2>5 Day Forecast</h2>
+            <div class="forecast-day">
+                <div id="date"></div>
+                <div id="temperature"></div>
+                <div id="humidity"></div>
+                <div id="wind-speed"></div>
+            </div>
+            <div class="=forecast-day">
+                <div id="date"></div>
+                <div id="temperature"></div>
+                <div id="humidity"></div>
+                <div id="wind-speed"></div>
+            </div>
+            <div class="=forecast-day">
+                <div id="date"></div>
+                <div id="temperature"></div>
+                <div id="humidity"></div>
+                <div id="wind-speed"></div>
+            </div>
+            <div class="=forecast-day">
+                <div id="date"></div>
+                <div id="temperature"></div>
+                <div id="humidity"></div>
+                <div id="wind-speed"></div>
+            </div>
+            <div class="=forecast-day">
+                <div id="date"></div>
+                <div id="temperature"></div>
+                <div id="humidity"></div>
+                <div id="wind-speed"></div>
+            </div>
+        </section>
+        <section id="search-history">
+            <h2>Search History</h2>
+            <ul id="history-list">
+
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
