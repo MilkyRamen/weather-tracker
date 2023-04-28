@@ -12,5 +12,6 @@ created by me (MilkyRamen) using OpenWeatherMap API for data
 ## Liscense
 MIT Liscense
 
-![forecast sc](https://user-images.githubusercontent.com/127574535/235050956-946902e0-8cd9-4d1c-a049-a8888f705ce1.PNG)
+
+![forecast sc](https://user-images.githubusercontent.com/127574535/235051108-894fa30d-5527-4a96-8f3c-687172d66cb6.PNG)
 https://milkyramen.github.io/weather-tracker/
